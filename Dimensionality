@@ -1,4 +1,5 @@
 #Create 2D Array From 1-D
+             
              import numpy as np
              x_1d=np.array([1,3,2])
              y_1d=np.array([3,2,4])
