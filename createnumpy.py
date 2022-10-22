@@ -3,8 +3,7 @@
 import numpy as np
 
 # Creating array object
-arr = np.array( [[ 1, 2, 3],
-				[ 4, 2, 5]] )
+arr = np.array( [[ 1, 2, 3],[ 4, 2, 5]] )
 
 # Printing type of arr object
 print("Array is of type: ", type(arr))
@@ -20,3 +19,12 @@ print("Size of array: ", arr.size)
 
 # Printing type of elements in array
 print("Array stores elements of type: ", arr.dtype)
+
+Output-
+       Array is of type:  <class 'numpy.ndarray'>
+       No. of dimensions:  2
+       Shape of array:  (2, 3)
+       Size of array:  6
+       Array stores elements of type:  int32
+
+       
