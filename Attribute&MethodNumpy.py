@@ -23,6 +23,12 @@ print(z_2d.flatten())
 #sizeofarray-the multiplication of rows & columns
 print(z_2d.size)
 
+s=np.array([[4,5,9,5],[2,7,8,5]]) 
+       print(s.flatten('F')) # ‘F’ means to flatten in column-major (Fortran- style) order
+       print(s.flatten('C')) # ‘C’ means to flatten in row-major (C-style) order
+       >> [4 2 5 7 9 8 5 5]
+       >> [4 5 9 5 2 7 8 5]
+
 Output:
  [1 3 2]
 (3,)
