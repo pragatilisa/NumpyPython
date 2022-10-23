@@ -95,6 +95,32 @@ e.g. for this NumPy
             array_A=array [ [3,4,6], [0,8,1]]
             itemsize will be 8, because this array consists of integers and size of integer (in bytes) is 8 bytes.
    
+   Numpy Methods
    
+   Numpy methods refers to the operations that can be done on array.
+   
+   Let us create a Numpy array first, say, array_A.
+
+Pass the above list to array() function of NumPy
+
+            array_A = np.array([ [3,4,6], [0,8,1] ])
+            
+ (1).Flatten() 
+ 
+ It returns an array collapsed into 1D.
+           
+           array_A=np.array([ [3,4,6], [0,8,1] ])
+           >>array_A.flatten()
+           >> [3,4,6,0,8,1]
+           
+ (2). Reshaping()
+  
+  It reshape the array dimension based on the inputted dimension.The reshape array must have same dimension as the original array
+  
+           array_A=np.array([ [3,4,6], [0,8,1] ])
+           >> array.reshape(3,2)
+           >> [ [3,0],
+                [4,8],
+                [6,1] ]
    
    
