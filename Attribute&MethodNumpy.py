@@ -6,7 +6,7 @@ y_1d=np.array([3,2,4])
 z_2d=np.array([x_1d,y_1d])
 print((x_1d))
 #shape-to check the overall dimension
-#print(x_1d.shape)
+print(x_1d.shape)
 print(np.array([[1,3,2],[4,5,3]]).shape)
 print(z_2d.shape)
 #reshape to change the shape
@@ -25,6 +25,7 @@ print(z_2d.size)
 
 Output:
  [1 3 2]
+(3,)
 (2, 3)
 (2, 3)
 [[1 3]
