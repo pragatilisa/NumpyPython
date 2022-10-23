@@ -1,4 +1,4 @@
-Attributes of Numpy Includes the properties
+Attributes & Methods of Numpy Includes the properties
 
 import  numpy as np
 x_1d=np.array([1,3,2])
@@ -18,3 +18,16 @@ print(z_2d.ndim) #its a 2d array
 print(z_2d.itemsize)
 k=np.array([1,3,4,2])
 print(k.itemsize)
+print(z_2d.flatten())
+
+Output:
+ [1 3 2]
+(2, 3)
+(2, 3)
+[[1 3]
+ [2 3]
+ [2 4]]
+2
+4
+4
+[1 3 2 3 2 4]
