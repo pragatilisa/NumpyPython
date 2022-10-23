@@ -108,6 +108,7 @@ Pass the above list to array() function of NumPy
  (1).Flatten() 
  
  It returns an array collapsed into 1D.
+ flatten()- inside the barckets we can specify row,colums or both to flatten.To flatten rows pass 'C' gor colums pass 'F' or (C,F)
            
            array_A=np.array([ [3,4,6], [0,8,1] ])
            >>array_A.flatten()
