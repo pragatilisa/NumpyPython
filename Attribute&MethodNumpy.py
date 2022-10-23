@@ -18,7 +18,10 @@ print(z_2d.ndim) #its a 2d array
 print(z_2d.itemsize)
 k=np.array([1,3,4,2])
 print(k.itemsize)
+#converts array into 1D
 print(z_2d.flatten())
+#sizeofarray-the multiplication of rows & columns
+print(z_2d.size)
 
 Output:
  [1 3 2]
@@ -31,3 +34,4 @@ Output:
 4
 4
 [1 3 2 3 2 4]
+6
