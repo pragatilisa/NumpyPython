@@ -113,6 +113,11 @@ Pass the above list to array() function of NumPy
            array_A=np.array([ [3,4,6], [0,8,1] ])
            >>array_A.flatten()
            >> [3,4,6,0,8,1]
+           s=np.array([[4,5,9,5],[2,7,8,5]]) 
+           print(s.flatten('F')) # ‘F’ means to flatten in column-major (Fortran- style) order
+           print(s.flatten('C')) # ‘C’ means to flatten in row-major (C-style) order
+           >> [4 2 5 7 9 8 5 5]
+           >> [4 5 9 5 2 7 8 5]
            
  (2). Reshaping()
   
