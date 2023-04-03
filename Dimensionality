@@ -1,3 +1,4 @@
+Array Dimensionality
 #Create 2D Array From 1-D
              
              import numpy as np
